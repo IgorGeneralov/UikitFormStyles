@@ -1,4 +1,4 @@
-# UikitFormStyles
+# Uikit Form Styles
 This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) classes
 
 - form-control --> uk-input uk-width-medium
@@ -9,3 +9,6 @@ This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) class
 - form-check-input --> uk-radio
 - joomla-modal modal fade --> uk-modal
 - small text-muted --> uk-text-meta
+
+## Install
+This plugin install to path plugins/system/ 
