@@ -26,7 +26,7 @@ This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) class
 ### Text
 - small text-muted --> uk-text-meta
 
-![Add menu](https://github.com/IgorGeneralov/Joomla-Custom-Admin-Menu/blob/0c2f8345a63330d6ddff6337feb4a76d92c23e00/sample.png)
+![Add menu](https://github.com/IgorGeneralov/UikitFormStyles/blob/64930589c92dcaa72c97e87c45832f92db9da55f/sample.png)
 
 ## Install
 This plugin install to path plugins/system/ 
