@@ -12,7 +12,7 @@
 
 	<files>
 		<filename plugin="uikitformstyles">uikitformstyles.php</filename>
-		<filename>uikitformstyles.js</filename>
+		<folder>js</folder>
 		<folder>language</folder>
 	</files>
 	<languages folder="language">
@@ -21,4 +21,58 @@
 		<language tag="ru-RU">ru-RU/ru-RU.plg_system_uikitformstyles.ini</language>
 		<language tag="ru-RU">ru-RU/ru-RU.plg_system_uikitformstyles.sys.ini</language>
 	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="PLG_SYSTEM_UIKITFORMSTYLES_FIELDSET_BASIC">
+				<!-- Forms -->
+				<field 
+					name="enable_forms" 
+					type="radio" 
+					default="1" 
+					label="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_FORMS" 
+					description="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_FORMS_DESC"
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+	
+				<!-- Buttons -->
+				<field 
+					name="enable_buttons" 
+					type="radio" 
+					default="1" 
+					label="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_BUTTONS" 
+					description="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_BUTTONS_DESC"
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+	
+				<!-- Modal -->
+				<field 
+					name="enable_modal" 
+					type="radio" 
+					default="1" 
+					label="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_MODAL" 
+					description="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_MODAL_DESC"
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+	
+				<!-- Text -->
+				<field 
+					name="enable_text" 
+					type="radio" 
+					default="1" 
+					label="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_TEXT" 
+					description="PLG_SYSTEM_UIKITFORMSTYLES_ENABLE_TEXT_DESC"
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>		
 </extension>
