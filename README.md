@@ -1,5 +1,5 @@
 # Uikit Form Styles
-This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) classes
+This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) classes. These classes are used for example in displaying the user profile.
 
 ### Forms
 - form-control --> uk-input uk-width-medium uk-margin-right
