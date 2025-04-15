@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_uikitformstyles</name>
+	<author>Igor Generalov</author>
+	<authorEmail>igor@generalov.net</authorEmail>
+	<authorUrl>https://generalov.net</authorUrl>
+	<creationDate>May 2025</creationDate>
+	<copyright>(C) 2025 Your Name. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>	
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_UIKITFORMSTYLES_DESC</description>
+
+	<files>
+		<filename plugin="uikitformstyles">uikitformstyles.php</filename>
+		<filename>uikitformstyles.js</filename>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_uikitformstyles.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_uikitformstyles.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_uikitformstyles.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_uikitformstyles.sys.ini</language>
+	</languages>
+</extension>
