@@ -1,5 +1,13 @@
 <?php
 
+;/**
+; * @version    1.0
+; * @package    UIKIT form styles
+; * @author     Igor Generalov https://generalov.net
+; * @copyright  Copyright (c) 2005 - 2025 Igor Generalov. All rights reserved..
+; * @license    GNU/GPL: https://gnu.org/licenses/gpl.html
+; */
+
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Plugin\CMSPlugin;
