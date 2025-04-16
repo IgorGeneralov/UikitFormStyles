@@ -1,4 +1,4 @@
-# Uikit Form Styles
+# YOOTheme (Uikit-3) Form Styles
 This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) classes. These classes are used for example in displaying the user profile.
 ## plg_system_uikitformstyles
 #### Forms
