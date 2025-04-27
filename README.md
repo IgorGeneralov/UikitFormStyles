@@ -19,6 +19,8 @@ This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) class
 - btn btn-primary --> uk-button uk-button-primary
 - btn btn-outline-primary btn-sm --> uk-button uk-button-default
 - btn btn-danger --> uk-button uk-button-danger uk-margin-left
+- icon-edit --> uk-icon + uk-icon="file-edit"
+- icon-calendar --> uk-icon + uk-icon="calendar"
 
 #### Modal
 - joomla-modal modal fade --> uk-modal
