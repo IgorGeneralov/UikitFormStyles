@@ -23,4 +23,16 @@ document.addEventListener('DOMContentLoaded', function () {
 		el.classList.remove('btn', 'btn-danger');
 		el.classList.add('uk-button', 'uk-button-danger', 'uk-margin-left');
 	});
+
+	document.querySelectorAll('.icon-edit').forEach(function (el) {
+		el.classList.remove('icon-edit');
+		el.classList.add('uk-icon');
+		el.setAttribute('uk-icon', 'file-edit');
+	});
+	
+	document.querySelectorAll('.icon-calendar').forEach(function (el) {
+		el.classList.remove('icon-calendar');
+		el.classList.add('uk-icon');
+		el.setAttribute('uk-icon', 'calendar');
+	});
 });
