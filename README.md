@@ -11,6 +11,7 @@ This plugin replaces default Joomla form CSS classes with UIkit (YOOTheme) class
 - form-check-input --> uk-radio
 - com-users-profile__core --> uk-fieldset
 - com-users-profile__params --> uk-fieldset
+- choices__inner --> uk-select uk-width-medium
 - users-profile-custom-actionlogs --> uk-fieldset
 
 #### Button
