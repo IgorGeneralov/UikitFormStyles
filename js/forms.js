@@ -28,6 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
 		el.classList.remove('input-group');
 		el.classList.add('input-group', 'uk-margin-small-bottom');
 	});
+
+	document.querySelectorAll('.choices__inner').forEach(function (el) {
+		el.classList.remove('choices__inner');
+		el.classList.add('uk-select', 'uk-width-medium');
+	});
 	
 	document.querySelectorAll('.com-users-profile__core, .com-users-profile__params, .users-profile-custom-actionlogs').forEach(function (el) {
 		el.classList.add('uk-fieldset');
